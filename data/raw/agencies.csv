@@ -1,0 +1,11 @@
+agency_id,agency_name,payment_profile
+A01,Summit Insurance Group,reliable
+A02,Harbor Risk Advisors,reliable
+A03,Liberty Insurance Agency,reliable
+A04,Keystone Benefits & Risk,reliable
+A05,Pioneer Underwriters,reliable
+A06,Cardinal Insurance Group,slow
+A07,Bayview Risk Advisors,slow
+A08,Ironwood Insurance Agency,slow
+A09,Sterling Benefits & Risk,problem
+A10,Northgate Underwriters,problem
