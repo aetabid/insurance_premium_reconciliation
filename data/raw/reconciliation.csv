@@ -1,151 +1,151 @@
-invoice_id,policy_number,agency_id,invoice_date,premium_billed,due_date,profile,scenario,payment_amount,balance,status,days_past_due,aging_bucket
-INV-0001,POL-1000,A01,2026-06-01,1399.58,2026-07-01,reliable,late,1399.58,0.0,Paid,76,Paid
-INV-0002,POL-1000,A01,2026-07-01,1399.58,2026-07-31,reliable,on_time,1399.58,0.0,Paid,46,Paid
-INV-0003,POL-1000,A01,2026-08-01,1399.58,2026-08-31,reliable,on_time,1399.58,0.0,Paid,15,Paid
-INV-0004,POL-1001,A08,2026-06-01,533.17,2026-07-01,slow,short,392.5,140.67,Past Due,76,60+ Days
-INV-0005,POL-1001,A08,2026-07-01,533.17,2026-07-31,slow,late,533.17,0.0,Paid,46,Paid
-INV-0006,POL-1001,A08,2026-08-01,533.17,2026-08-31,slow,late,0.0,533.17,Past Due,15,1-30 Days
-INV-0007,POL-1002,A07,2026-06-01,4041.17,2026-07-01,slow,late,4041.17,0.0,Paid,76,Paid
-INV-0008,POL-1002,A07,2026-07-01,4041.17,2026-07-31,slow,on_time,4041.17,0.0,Paid,46,Paid
-INV-0009,POL-1002,A07,2026-08-01,4041.17,2026-08-31,slow,on_time,4041.17,0.0,Paid,15,Paid
-INV-0010,POL-1003,A05,2026-06-01,3491.83,2026-07-01,reliable,late,3491.83,0.0,Paid,76,Paid
-INV-0011,POL-1003,A05,2026-07-01,3491.83,2026-07-31,reliable,on_time,3491.83,0.0,Paid,46,Paid
-INV-0012,POL-1003,A05,2026-08-01,3491.83,2026-08-31,reliable,on_time,3491.83,0.0,Paid,15,Paid
-INV-0013,POL-1004,A05,2026-06-01,3673.25,2026-07-01,reliable,on_time,3673.25,0.0,Paid,76,Paid
-INV-0014,POL-1004,A05,2026-07-01,3673.25,2026-07-31,reliable,on_time,3673.25,0.0,Paid,46,Paid
-INV-0015,POL-1004,A05,2026-08-01,3673.25,2026-08-31,reliable,on_time,3673.25,0.0,Paid,15,Paid
-INV-0016,POL-1005,A09,2026-06-01,4013.25,2026-07-01,problem,short,3123.63,889.62,Past Due,76,60+ Days
-INV-0017,POL-1005,A09,2026-07-01,4013.25,2026-07-31,problem,short,3400.83,612.42,Past Due,46,31-60 Days
-INV-0018,POL-1005,A09,2026-08-01,4013.25,2026-08-31,problem,short,2781.59,1231.66,Past Due,15,1-30 Days
-INV-0019,POL-1006,A01,2026-06-01,2565.08,2026-07-01,reliable,on_time,2565.08,0.0,Paid,76,Paid
-INV-0020,POL-1006,A01,2026-07-01,2565.08,2026-07-31,reliable,on_time,2565.08,0.0,Paid,46,Paid
-INV-0021,POL-1006,A01,2026-08-01,2565.08,2026-08-31,reliable,on_time,2565.08,0.0,Paid,15,Paid
-INV-0022,POL-1007,A07,2026-06-01,3059.33,2026-07-01,slow,late,3059.33,0.0,Paid,76,Paid
-INV-0023,POL-1007,A07,2026-07-01,3059.33,2026-07-31,slow,on_time,3059.33,0.0,Paid,46,Paid
-INV-0024,POL-1007,A07,2026-08-01,3059.33,2026-08-31,slow,late,3059.33,0.0,Paid,15,Paid
-INV-0025,POL-1008,A03,2026-06-01,1129.08,2026-07-01,reliable,on_time,1129.08,0.0,Paid,76,Paid
-INV-0026,POL-1008,A03,2026-07-01,1129.08,2026-07-31,reliable,on_time,1129.08,0.0,Paid,46,Paid
-INV-0027,POL-1008,A03,2026-08-01,1129.08,2026-08-31,reliable,on_time,1129.08,0.0,Paid,15,Paid
-INV-0028,POL-1009,A01,2026-06-01,1015.42,2026-07-01,reliable,on_time,1015.42,0.0,Paid,76,Paid
-INV-0029,POL-1009,A01,2026-07-01,1015.42,2026-07-31,reliable,on_time,1015.42,0.0,Paid,46,Paid
-INV-0030,POL-1009,A01,2026-08-01,1015.42,2026-08-31,reliable,on_time,1015.42,0.0,Paid,15,Paid
-INV-0031,POL-1010,A06,2026-06-01,3507.83,2026-07-01,slow,on_time,3507.83,0.0,Paid,76,Paid
-INV-0032,POL-1010,A06,2026-07-01,3507.83,2026-07-31,slow,short,2162.99,1344.84,Past Due,46,31-60 Days
-INV-0033,POL-1010,A06,2026-08-01,3507.83,2026-08-31,slow,late,3507.83,0.0,Paid,15,Paid
-INV-0034,POL-1011,A10,2026-06-01,2619.92,2026-07-01,problem,late,2619.92,0.0,Paid,76,Paid
-INV-0035,POL-1011,A10,2026-07-01,2619.92,2026-07-31,problem,late,0.0,2619.92,Past Due,46,31-60 Days
-INV-0036,POL-1011,A10,2026-08-01,2619.92,2026-08-31,problem,on_time,2619.92,0.0,Paid,15,Paid
-INV-0037,POL-1012,A08,2026-06-01,3043.58,2026-07-01,slow,short,2447.69,595.89,Past Due,76,60+ Days
-INV-0038,POL-1012,A08,2026-07-01,3043.58,2026-07-31,slow,late,3043.58,0.0,Paid,46,Paid
-INV-0039,POL-1012,A08,2026-08-01,3043.58,2026-08-31,slow,late,0.0,3043.58,Past Due,15,1-30 Days
-INV-0040,POL-1013,A08,2026-06-01,3942.5,2026-07-01,slow,on_time,3942.5,0.0,Paid,76,Paid
-INV-0041,POL-1013,A08,2026-07-01,3942.5,2026-07-31,slow,late,0.0,3942.5,Past Due,46,31-60 Days
-INV-0042,POL-1013,A08,2026-08-01,3942.5,2026-08-31,slow,late,0.0,3942.5,Past Due,15,1-30 Days
-INV-0043,POL-1014,A08,2026-06-01,3356.25,2026-07-01,slow,short,2894.77,461.48,Past Due,76,60+ Days
-INV-0044,POL-1014,A08,2026-07-01,3356.25,2026-07-31,slow,late,3356.25,0.0,Paid,46,Paid
-INV-0045,POL-1014,A08,2026-08-01,3356.25,2026-08-31,slow,late,0.0,3356.25,Past Due,15,1-30 Days
-INV-0046,POL-1015,A08,2026-06-01,2991.08,2026-07-01,slow,on_time,2991.08,0.0,Paid,76,Paid
-INV-0047,POL-1015,A08,2026-07-01,2991.08,2026-07-31,slow,on_time,2991.08,0.0,Paid,46,Paid
-INV-0048,POL-1015,A08,2026-08-01,2991.08,2026-08-31,slow,late,2991.08,0.0,Paid,15,Paid
-INV-0049,POL-1016,A06,2026-06-01,3016.42,2026-07-01,slow,late,3016.42,0.0,Paid,76,Paid
-INV-0050,POL-1016,A06,2026-07-01,3016.42,2026-07-31,slow,on_time,3016.42,0.0,Paid,46,Paid
-INV-0051,POL-1016,A06,2026-08-01,3016.42,2026-08-31,slow,late,0.0,3016.42,Past Due,15,1-30 Days
-INV-0052,POL-1017,A02,2026-06-01,1867.75,2026-07-01,reliable,late,1867.75,0.0,Paid,76,Paid
-INV-0053,POL-1017,A02,2026-07-01,1867.75,2026-07-31,reliable,on_time,1867.75,0.0,Paid,46,Paid
-INV-0054,POL-1017,A02,2026-08-01,1867.75,2026-08-31,reliable,on_time,1867.75,0.0,Paid,15,Paid
-INV-0055,POL-1018,A09,2026-06-01,638.67,2026-07-01,problem,on_time,638.67,0.0,Paid,76,Paid
-INV-0056,POL-1018,A09,2026-07-01,638.67,2026-07-31,problem,short,462.96,175.71,Past Due,46,31-60 Days
-INV-0057,POL-1018,A09,2026-08-01,638.67,2026-08-31,problem,late,0.0,638.67,Past Due,15,1-30 Days
-INV-0058,POL-1019,A05,2026-06-01,2465.25,2026-07-01,reliable,on_time,2465.25,0.0,Paid,76,Paid
-INV-0059,POL-1019,A05,2026-07-01,2465.25,2026-07-31,reliable,on_time,2465.25,0.0,Paid,46,Paid
-INV-0060,POL-1019,A05,2026-08-01,2465.25,2026-08-31,reliable,on_time,2465.25,0.0,Paid,15,Paid
-INV-0061,POL-1020,A06,2026-06-01,1465.67,2026-07-01,slow,on_time,1465.67,0.0,Paid,76,Paid
-INV-0062,POL-1020,A06,2026-07-01,1465.67,2026-07-31,slow,short,924.11,541.56,Past Due,46,31-60 Days
-INV-0063,POL-1020,A06,2026-08-01,1465.67,2026-08-31,slow,on_time,1465.67,0.0,Paid,15,Paid
-INV-0064,POL-1021,A04,2026-06-01,2338.42,2026-07-01,reliable,on_time,2338.42,0.0,Paid,76,Paid
-INV-0065,POL-1021,A04,2026-07-01,2338.42,2026-07-31,reliable,on_time,2338.42,0.0,Paid,46,Paid
-INV-0066,POL-1021,A04,2026-08-01,2338.42,2026-08-31,reliable,on_time,2338.42,0.0,Paid,15,Paid
-INV-0067,POL-1022,A02,2026-06-01,4340.33,2026-07-01,reliable,on_time,4340.33,0.0,Paid,76,Paid
-INV-0068,POL-1022,A02,2026-07-01,4340.33,2026-07-31,reliable,on_time,4340.33,0.0,Paid,46,Paid
-INV-0069,POL-1022,A02,2026-08-01,4340.33,2026-08-31,reliable,on_time,4340.33,0.0,Paid,15,Paid
-INV-0070,POL-1023,A10,2026-06-01,1552.75,2026-07-01,problem,short,1324.61,228.14,Past Due,76,60+ Days
-INV-0071,POL-1023,A10,2026-07-01,1552.75,2026-07-31,problem,late,0.0,1552.75,Past Due,46,31-60 Days
-INV-0072,POL-1023,A10,2026-08-01,1552.75,2026-08-31,problem,late,0.0,1552.75,Past Due,15,1-30 Days
-INV-0073,POL-1024,A08,2026-06-01,762.33,2026-07-01,slow,on_time,762.33,0.0,Paid,76,Paid
-INV-0074,POL-1024,A08,2026-07-01,762.33,2026-07-31,slow,short,640.82,121.51,Past Due,46,31-60 Days
-INV-0075,POL-1024,A08,2026-08-01,762.33,2026-08-31,slow,on_time,762.33,0.0,Paid,15,Paid
-INV-0076,POL-1025,A07,2026-06-01,1766.25,2026-07-01,slow,on_time,1766.25,0.0,Paid,76,Paid
-INV-0077,POL-1025,A07,2026-07-01,1766.25,2026-07-31,slow,late,1766.25,0.0,Paid,46,Paid
-INV-0078,POL-1025,A07,2026-08-01,1766.25,2026-08-31,slow,short,1472.52,293.73,Past Due,15,1-30 Days
-INV-0079,POL-1026,A05,2026-06-01,1821.17,2026-07-01,reliable,late,1821.17,0.0,Paid,76,Paid
-INV-0080,POL-1026,A05,2026-07-01,1821.17,2026-07-31,reliable,on_time,1821.17,0.0,Paid,46,Paid
-INV-0081,POL-1026,A05,2026-08-01,1821.17,2026-08-31,reliable,late,0.0,1821.17,Past Due,15,1-30 Days
-INV-0082,POL-1027,A09,2026-06-01,3478.58,2026-07-01,problem,short,2623.78,854.8,Past Due,76,60+ Days
-INV-0083,POL-1027,A09,2026-07-01,3478.58,2026-07-31,problem,late,0.0,3478.58,Past Due,46,31-60 Days
-INV-0084,POL-1027,A09,2026-08-01,3478.58,2026-08-31,problem,late,0.0,3478.58,Past Due,15,1-30 Days
-INV-0085,POL-1028,A06,2026-06-01,3006.67,2026-07-01,slow,late,3006.67,0.0,Paid,76,Paid
-INV-0086,POL-1028,A06,2026-07-01,3006.67,2026-07-31,slow,late,3006.67,0.0,Paid,46,Paid
-INV-0087,POL-1028,A06,2026-08-01,3006.67,2026-08-31,slow,on_time,3006.67,0.0,Paid,15,Paid
-INV-0088,POL-1029,A05,2026-06-01,4027.58,2026-07-01,reliable,on_time,4027.58,0.0,Paid,76,Paid
-INV-0089,POL-1029,A05,2026-07-01,4027.58,2026-07-31,reliable,on_time,4027.58,0.0,Paid,46,Paid
-INV-0090,POL-1029,A05,2026-08-01,4027.58,2026-08-31,reliable,on_time,4027.58,0.0,Paid,15,Paid
-INV-0091,POL-1030,A05,2026-06-01,3489.42,2026-07-01,reliable,late,3489.42,0.0,Paid,76,Paid
-INV-0092,POL-1030,A05,2026-07-01,3489.42,2026-07-31,reliable,on_time,3489.42,0.0,Paid,46,Paid
-INV-0093,POL-1030,A05,2026-08-01,3489.42,2026-08-31,reliable,on_time,3489.42,0.0,Paid,15,Paid
-INV-0094,POL-1031,A03,2026-06-01,2328.75,2026-07-01,reliable,on_time,2328.75,0.0,Paid,76,Paid
-INV-0095,POL-1031,A03,2026-07-01,2328.75,2026-07-31,reliable,on_time,2328.75,0.0,Paid,46,Paid
-INV-0096,POL-1031,A03,2026-08-01,2328.75,2026-08-31,reliable,on_time,2328.75,0.0,Paid,15,Paid
-INV-0097,POL-1032,A01,2026-06-01,4163.08,2026-07-01,reliable,on_time,4163.08,0.0,Paid,76,Paid
-INV-0098,POL-1032,A01,2026-07-01,4163.08,2026-07-31,reliable,late,4163.08,0.0,Paid,46,Paid
-INV-0099,POL-1032,A01,2026-08-01,4163.08,2026-08-31,reliable,on_time,4163.08,0.0,Paid,15,Paid
-INV-0100,POL-1033,A06,2026-06-01,1251.42,2026-07-01,slow,on_time,1251.42,0.0,Paid,76,Paid
-INV-0101,POL-1033,A06,2026-07-01,1251.42,2026-07-31,slow,late,1251.42,0.0,Paid,46,Paid
-INV-0102,POL-1033,A06,2026-08-01,1251.42,2026-08-31,slow,short,888.41,363.01,Past Due,15,1-30 Days
-INV-0103,POL-1034,A09,2026-06-01,602.17,2026-07-01,problem,late,602.17,0.0,Paid,76,Paid
-INV-0104,POL-1034,A09,2026-07-01,602.17,2026-07-31,problem,on_time,602.17,0.0,Paid,46,Paid
-INV-0105,POL-1034,A09,2026-08-01,602.17,2026-08-31,problem,on_time,602.17,0.0,Paid,15,Paid
-INV-0106,POL-1035,A01,2026-06-01,905.25,2026-07-01,reliable,on_time,905.25,0.0,Paid,76,Paid
-INV-0107,POL-1035,A01,2026-07-01,905.25,2026-07-31,reliable,on_time,905.25,0.0,Paid,46,Paid
-INV-0108,POL-1035,A01,2026-08-01,905.25,2026-08-31,reliable,on_time,905.25,0.0,Paid,15,Paid
-INV-0109,POL-1036,A09,2026-06-01,3750.58,2026-07-01,problem,on_time,3750.58,0.0,Paid,76,Paid
-INV-0110,POL-1036,A09,2026-07-01,3750.58,2026-07-31,problem,late,3750.58,0.0,Paid,46,Paid
-INV-0111,POL-1036,A09,2026-08-01,3750.58,2026-08-31,problem,short,3281.4,469.18,Past Due,15,1-30 Days
-INV-0112,POL-1037,A09,2026-06-01,2578.42,2026-07-01,problem,late,2578.42,0.0,Paid,76,Paid
-INV-0113,POL-1037,A09,2026-07-01,2578.42,2026-07-31,problem,on_time,2578.42,0.0,Paid,46,Paid
-INV-0114,POL-1037,A09,2026-08-01,2578.42,2026-08-31,problem,short,1801.05,777.37,Past Due,15,1-30 Days
-INV-0115,POL-1038,A03,2026-06-01,1225.75,2026-07-01,reliable,on_time,1225.75,0.0,Paid,76,Paid
-INV-0116,POL-1038,A03,2026-07-01,1225.75,2026-07-31,reliable,on_time,1225.75,0.0,Paid,46,Paid
-INV-0117,POL-1038,A03,2026-08-01,1225.75,2026-08-31,reliable,on_time,1225.75,0.0,Paid,15,Paid
-INV-0118,POL-1039,A07,2026-06-01,2754.67,2026-07-01,slow,on_time,2754.67,0.0,Paid,76,Paid
-INV-0119,POL-1039,A07,2026-07-01,2754.67,2026-07-31,slow,short,2317.55,437.12,Past Due,46,31-60 Days
-INV-0120,POL-1039,A07,2026-08-01,2754.67,2026-08-31,slow,on_time,2754.67,0.0,Paid,15,Paid
-INV-0121,POL-1040,A02,2026-06-01,1185.42,2026-07-01,reliable,on_time,1185.42,0.0,Paid,76,Paid
-INV-0122,POL-1040,A02,2026-07-01,1185.42,2026-07-31,reliable,on_time,1185.42,0.0,Paid,46,Paid
-INV-0123,POL-1040,A02,2026-08-01,1185.42,2026-08-31,reliable,on_time,1185.42,0.0,Paid,15,Paid
-INV-0124,POL-1041,A08,2026-06-01,3633.42,2026-07-01,slow,short,2494.15,1139.27,Past Due,76,60+ Days
-INV-0125,POL-1041,A08,2026-07-01,3633.42,2026-07-31,slow,on_time,3633.42,0.0,Paid,46,Paid
-INV-0126,POL-1041,A08,2026-08-01,3633.42,2026-08-31,slow,short,2400.68,1232.74,Past Due,15,1-30 Days
-INV-0127,POL-1042,A08,2026-06-01,2507.67,2026-07-01,slow,on_time,2507.67,0.0,Paid,76,Paid
-INV-0128,POL-1042,A08,2026-07-01,2507.67,2026-07-31,slow,late,2507.67,0.0,Paid,46,Paid
-INV-0129,POL-1042,A08,2026-08-01,2507.67,2026-08-31,slow,late,0.0,2507.67,Past Due,15,1-30 Days
-INV-0130,POL-1043,A04,2026-06-01,2214.58,2026-07-01,reliable,on_time,2214.58,0.0,Paid,76,Paid
-INV-0131,POL-1043,A04,2026-07-01,2214.58,2026-07-31,reliable,on_time,2214.58,0.0,Paid,46,Paid
-INV-0132,POL-1043,A04,2026-08-01,2214.58,2026-08-31,reliable,on_time,2214.58,0.0,Paid,15,Paid
-INV-0133,POL-1044,A01,2026-06-01,1856.83,2026-07-01,reliable,short,1167.07,689.76,Past Due,76,60+ Days
-INV-0134,POL-1044,A01,2026-07-01,1856.83,2026-07-31,reliable,on_time,1856.83,0.0,Paid,46,Paid
-INV-0135,POL-1044,A01,2026-08-01,1856.83,2026-08-31,reliable,late,0.0,1856.83,Past Due,15,1-30 Days
-INV-0136,POL-1045,A10,2026-06-01,3336.25,2026-07-01,problem,short,2086.32,1249.93,Past Due,76,60+ Days
-INV-0137,POL-1045,A10,2026-07-01,3336.25,2026-07-31,problem,late,3336.25,0.0,Paid,46,Paid
-INV-0138,POL-1045,A10,2026-08-01,3336.25,2026-08-31,problem,short,0.0,3336.25,Past Due,15,1-30 Days
-INV-0139,POL-1046,A05,2026-06-01,2128.17,2026-07-01,reliable,on_time,2128.17,0.0,Paid,76,Paid
-INV-0140,POL-1046,A05,2026-07-01,2128.17,2026-07-31,reliable,on_time,2128.17,0.0,Paid,46,Paid
-INV-0141,POL-1046,A05,2026-08-01,2128.17,2026-08-31,reliable,on_time,2128.17,0.0,Paid,15,Paid
-INV-0142,POL-1047,A09,2026-06-01,894.42,2026-07-01,problem,short,695.95,198.47,Past Due,76,60+ Days
-INV-0143,POL-1047,A09,2026-07-01,894.42,2026-07-31,problem,late,894.42,0.0,Paid,46,Paid
-INV-0144,POL-1047,A09,2026-08-01,894.42,2026-08-31,problem,late,0.0,894.42,Past Due,15,1-30 Days
-INV-0145,POL-1048,A07,2026-06-01,1031.0,2026-07-01,slow,late,1031.0,0.0,Paid,76,Paid
-INV-0146,POL-1048,A07,2026-07-01,1031.0,2026-07-31,slow,late,0.0,1031.0,Past Due,46,31-60 Days
-INV-0147,POL-1048,A07,2026-08-01,1031.0,2026-08-31,slow,late,0.0,1031.0,Past Due,15,1-30 Days
-INV-0148,POL-1049,A08,2026-06-01,4828.5,2026-07-01,slow,late,4828.5,0.0,Paid,76,Paid
-INV-0149,POL-1049,A08,2026-07-01,4828.5,2026-07-31,slow,on_time,4828.5,0.0,Paid,46,Paid
-INV-0150,POL-1049,A08,2026-08-01,4828.5,2026-08-31,slow,late,0.0,4828.5,Past Due,15,1-30 Days
+invoice_id,policy_number,agency_id,invoice_date,premium_billed,due_date,profile,scenario,payment_amount,agency_name,line_of_business,balance,status,days_past_due,aging_bucket
+INV-0001,POL-1000,A01,2026-06-01,1399.58,2026-07-01,reliable,late,1399.58,Summit Insurance Group,Commercial Property,0.0,Paid,76,Paid
+INV-0002,POL-1000,A01,2026-07-01,1399.58,2026-07-31,reliable,on_time,1399.58,Summit Insurance Group,Commercial Property,0.0,Paid,46,Paid
+INV-0003,POL-1000,A01,2026-08-01,1399.58,2026-08-31,reliable,on_time,1399.58,Summit Insurance Group,Commercial Property,0.0,Paid,15,Paid
+INV-0004,POL-1001,A08,2026-06-01,533.17,2026-07-01,slow,short,392.5,Ironwood Insurance Agency,Commercial Auto,140.67,Past Due,76,60+ Days
+INV-0005,POL-1001,A08,2026-07-01,533.17,2026-07-31,slow,late,533.17,Ironwood Insurance Agency,Commercial Auto,0.0,Paid,46,Paid
+INV-0006,POL-1001,A08,2026-08-01,533.17,2026-08-31,slow,late,0.0,Ironwood Insurance Agency,Commercial Auto,533.17,Past Due,15,1-30 Days
+INV-0007,POL-1002,A07,2026-06-01,4041.17,2026-07-01,slow,late,4041.17,Bayview Risk Advisors,General Liability,0.0,Paid,76,Paid
+INV-0008,POL-1002,A07,2026-07-01,4041.17,2026-07-31,slow,on_time,4041.17,Bayview Risk Advisors,General Liability,0.0,Paid,46,Paid
+INV-0009,POL-1002,A07,2026-08-01,4041.17,2026-08-31,slow,on_time,4041.17,Bayview Risk Advisors,General Liability,0.0,Paid,15,Paid
+INV-0010,POL-1003,A05,2026-06-01,3491.83,2026-07-01,reliable,late,3491.83,Pioneer Underwriters,General Liability,0.0,Paid,76,Paid
+INV-0011,POL-1003,A05,2026-07-01,3491.83,2026-07-31,reliable,on_time,3491.83,Pioneer Underwriters,General Liability,0.0,Paid,46,Paid
+INV-0012,POL-1003,A05,2026-08-01,3491.83,2026-08-31,reliable,on_time,3491.83,Pioneer Underwriters,General Liability,0.0,Paid,15,Paid
+INV-0013,POL-1004,A05,2026-06-01,3673.25,2026-07-01,reliable,on_time,3673.25,Pioneer Underwriters,General Liability,0.0,Paid,76,Paid
+INV-0014,POL-1004,A05,2026-07-01,3673.25,2026-07-31,reliable,on_time,3673.25,Pioneer Underwriters,General Liability,0.0,Paid,46,Paid
+INV-0015,POL-1004,A05,2026-08-01,3673.25,2026-08-31,reliable,on_time,3673.25,Pioneer Underwriters,General Liability,0.0,Paid,15,Paid
+INV-0016,POL-1005,A09,2026-06-01,4013.25,2026-07-01,problem,short,3123.63,Sterling Benefits & Risk,Commercial Auto,889.62,Past Due,76,60+ Days
+INV-0017,POL-1005,A09,2026-07-01,4013.25,2026-07-31,problem,short,3400.83,Sterling Benefits & Risk,Commercial Auto,612.42,Past Due,46,31-60 Days
+INV-0018,POL-1005,A09,2026-08-01,4013.25,2026-08-31,problem,short,2781.59,Sterling Benefits & Risk,Commercial Auto,1231.66,Past Due,15,1-30 Days
+INV-0019,POL-1006,A01,2026-06-01,2565.08,2026-07-01,reliable,on_time,2565.08,Summit Insurance Group,General Liability,0.0,Paid,76,Paid
+INV-0020,POL-1006,A01,2026-07-01,2565.08,2026-07-31,reliable,on_time,2565.08,Summit Insurance Group,General Liability,0.0,Paid,46,Paid
+INV-0021,POL-1006,A01,2026-08-01,2565.08,2026-08-31,reliable,on_time,2565.08,Summit Insurance Group,General Liability,0.0,Paid,15,Paid
+INV-0022,POL-1007,A07,2026-06-01,3059.33,2026-07-01,slow,late,3059.33,Bayview Risk Advisors,Commercial Auto,0.0,Paid,76,Paid
+INV-0023,POL-1007,A07,2026-07-01,3059.33,2026-07-31,slow,on_time,3059.33,Bayview Risk Advisors,Commercial Auto,0.0,Paid,46,Paid
+INV-0024,POL-1007,A07,2026-08-01,3059.33,2026-08-31,slow,late,3059.33,Bayview Risk Advisors,Commercial Auto,0.0,Paid,15,Paid
+INV-0025,POL-1008,A03,2026-06-01,1129.08,2026-07-01,reliable,on_time,1129.08,Liberty Insurance Agency,Commercial Property,0.0,Paid,76,Paid
+INV-0026,POL-1008,A03,2026-07-01,1129.08,2026-07-31,reliable,on_time,1129.08,Liberty Insurance Agency,Commercial Property,0.0,Paid,46,Paid
+INV-0027,POL-1008,A03,2026-08-01,1129.08,2026-08-31,reliable,on_time,1129.08,Liberty Insurance Agency,Commercial Property,0.0,Paid,15,Paid
+INV-0028,POL-1009,A01,2026-06-01,1015.42,2026-07-01,reliable,on_time,1015.42,Summit Insurance Group,Commercial Property,0.0,Paid,76,Paid
+INV-0029,POL-1009,A01,2026-07-01,1015.42,2026-07-31,reliable,on_time,1015.42,Summit Insurance Group,Commercial Property,0.0,Paid,46,Paid
+INV-0030,POL-1009,A01,2026-08-01,1015.42,2026-08-31,reliable,on_time,1015.42,Summit Insurance Group,Commercial Property,0.0,Paid,15,Paid
+INV-0031,POL-1010,A06,2026-06-01,3507.83,2026-07-01,slow,on_time,3507.83,Cardinal Insurance Group,Commercial Property,0.0,Paid,76,Paid
+INV-0032,POL-1010,A06,2026-07-01,3507.83,2026-07-31,slow,short,2162.99,Cardinal Insurance Group,Commercial Property,1344.84,Past Due,46,31-60 Days
+INV-0033,POL-1010,A06,2026-08-01,3507.83,2026-08-31,slow,late,3507.83,Cardinal Insurance Group,Commercial Property,0.0,Paid,15,Paid
+INV-0034,POL-1011,A10,2026-06-01,2619.92,2026-07-01,problem,late,2619.92,Northgate Underwriters,Commercial Property,0.0,Paid,76,Paid
+INV-0035,POL-1011,A10,2026-07-01,2619.92,2026-07-31,problem,late,0.0,Northgate Underwriters,Commercial Property,2619.92,Past Due,46,31-60 Days
+INV-0036,POL-1011,A10,2026-08-01,2619.92,2026-08-31,problem,on_time,2619.92,Northgate Underwriters,Commercial Property,0.0,Paid,15,Paid
+INV-0037,POL-1012,A08,2026-06-01,3043.58,2026-07-01,slow,short,2447.69,Ironwood Insurance Agency,General Liability,595.89,Past Due,76,60+ Days
+INV-0038,POL-1012,A08,2026-07-01,3043.58,2026-07-31,slow,late,3043.58,Ironwood Insurance Agency,General Liability,0.0,Paid,46,Paid
+INV-0039,POL-1012,A08,2026-08-01,3043.58,2026-08-31,slow,late,0.0,Ironwood Insurance Agency,General Liability,3043.58,Past Due,15,1-30 Days
+INV-0040,POL-1013,A08,2026-06-01,3942.5,2026-07-01,slow,on_time,3942.5,Ironwood Insurance Agency,Commercial Property,0.0,Paid,76,Paid
+INV-0041,POL-1013,A08,2026-07-01,3942.5,2026-07-31,slow,late,0.0,Ironwood Insurance Agency,Commercial Property,3942.5,Past Due,46,31-60 Days
+INV-0042,POL-1013,A08,2026-08-01,3942.5,2026-08-31,slow,late,0.0,Ironwood Insurance Agency,Commercial Property,3942.5,Past Due,15,1-30 Days
+INV-0043,POL-1014,A08,2026-06-01,3356.25,2026-07-01,slow,short,2894.77,Ironwood Insurance Agency,General Liability,461.48,Past Due,76,60+ Days
+INV-0044,POL-1014,A08,2026-07-01,3356.25,2026-07-31,slow,late,3356.25,Ironwood Insurance Agency,General Liability,0.0,Paid,46,Paid
+INV-0045,POL-1014,A08,2026-08-01,3356.25,2026-08-31,slow,late,0.0,Ironwood Insurance Agency,General Liability,3356.25,Past Due,15,1-30 Days
+INV-0046,POL-1015,A08,2026-06-01,2991.08,2026-07-01,slow,on_time,2991.08,Ironwood Insurance Agency,Commercial Auto,0.0,Paid,76,Paid
+INV-0047,POL-1015,A08,2026-07-01,2991.08,2026-07-31,slow,on_time,2991.08,Ironwood Insurance Agency,Commercial Auto,0.0,Paid,46,Paid
+INV-0048,POL-1015,A08,2026-08-01,2991.08,2026-08-31,slow,late,2991.08,Ironwood Insurance Agency,Commercial Auto,0.0,Paid,15,Paid
+INV-0049,POL-1016,A06,2026-06-01,3016.42,2026-07-01,slow,late,3016.42,Cardinal Insurance Group,Commercial Property,0.0,Paid,76,Paid
+INV-0050,POL-1016,A06,2026-07-01,3016.42,2026-07-31,slow,on_time,3016.42,Cardinal Insurance Group,Commercial Property,0.0,Paid,46,Paid
+INV-0051,POL-1016,A06,2026-08-01,3016.42,2026-08-31,slow,late,0.0,Cardinal Insurance Group,Commercial Property,3016.42,Past Due,15,1-30 Days
+INV-0052,POL-1017,A02,2026-06-01,1867.75,2026-07-01,reliable,late,1867.75,Harbor Risk Advisors,General Liability,0.0,Paid,76,Paid
+INV-0053,POL-1017,A02,2026-07-01,1867.75,2026-07-31,reliable,on_time,1867.75,Harbor Risk Advisors,General Liability,0.0,Paid,46,Paid
+INV-0054,POL-1017,A02,2026-08-01,1867.75,2026-08-31,reliable,on_time,1867.75,Harbor Risk Advisors,General Liability,0.0,Paid,15,Paid
+INV-0055,POL-1018,A09,2026-06-01,638.67,2026-07-01,problem,on_time,638.67,Sterling Benefits & Risk,Commercial Auto,0.0,Paid,76,Paid
+INV-0056,POL-1018,A09,2026-07-01,638.67,2026-07-31,problem,short,462.96,Sterling Benefits & Risk,Commercial Auto,175.71,Past Due,46,31-60 Days
+INV-0057,POL-1018,A09,2026-08-01,638.67,2026-08-31,problem,late,0.0,Sterling Benefits & Risk,Commercial Auto,638.67,Past Due,15,1-30 Days
+INV-0058,POL-1019,A05,2026-06-01,2465.25,2026-07-01,reliable,on_time,2465.25,Pioneer Underwriters,General Liability,0.0,Paid,76,Paid
+INV-0059,POL-1019,A05,2026-07-01,2465.25,2026-07-31,reliable,on_time,2465.25,Pioneer Underwriters,General Liability,0.0,Paid,46,Paid
+INV-0060,POL-1019,A05,2026-08-01,2465.25,2026-08-31,reliable,on_time,2465.25,Pioneer Underwriters,General Liability,0.0,Paid,15,Paid
+INV-0061,POL-1020,A06,2026-06-01,1465.67,2026-07-01,slow,on_time,1465.67,Cardinal Insurance Group,Commercial Property,0.0,Paid,76,Paid
+INV-0062,POL-1020,A06,2026-07-01,1465.67,2026-07-31,slow,short,924.11,Cardinal Insurance Group,Commercial Property,541.56,Past Due,46,31-60 Days
+INV-0063,POL-1020,A06,2026-08-01,1465.67,2026-08-31,slow,on_time,1465.67,Cardinal Insurance Group,Commercial Property,0.0,Paid,15,Paid
+INV-0064,POL-1021,A04,2026-06-01,2338.42,2026-07-01,reliable,on_time,2338.42,Keystone Benefits & Risk,Commercial Auto,0.0,Paid,76,Paid
+INV-0065,POL-1021,A04,2026-07-01,2338.42,2026-07-31,reliable,on_time,2338.42,Keystone Benefits & Risk,Commercial Auto,0.0,Paid,46,Paid
+INV-0066,POL-1021,A04,2026-08-01,2338.42,2026-08-31,reliable,on_time,2338.42,Keystone Benefits & Risk,Commercial Auto,0.0,Paid,15,Paid
+INV-0067,POL-1022,A02,2026-06-01,4340.33,2026-07-01,reliable,on_time,4340.33,Harbor Risk Advisors,General Liability,0.0,Paid,76,Paid
+INV-0068,POL-1022,A02,2026-07-01,4340.33,2026-07-31,reliable,on_time,4340.33,Harbor Risk Advisors,General Liability,0.0,Paid,46,Paid
+INV-0069,POL-1022,A02,2026-08-01,4340.33,2026-08-31,reliable,on_time,4340.33,Harbor Risk Advisors,General Liability,0.0,Paid,15,Paid
+INV-0070,POL-1023,A10,2026-06-01,1552.75,2026-07-01,problem,short,1324.61,Northgate Underwriters,Commercial Auto,228.14,Past Due,76,60+ Days
+INV-0071,POL-1023,A10,2026-07-01,1552.75,2026-07-31,problem,late,0.0,Northgate Underwriters,Commercial Auto,1552.75,Past Due,46,31-60 Days
+INV-0072,POL-1023,A10,2026-08-01,1552.75,2026-08-31,problem,late,0.0,Northgate Underwriters,Commercial Auto,1552.75,Past Due,15,1-30 Days
+INV-0073,POL-1024,A08,2026-06-01,762.33,2026-07-01,slow,on_time,762.33,Ironwood Insurance Agency,Commercial Property,0.0,Paid,76,Paid
+INV-0074,POL-1024,A08,2026-07-01,762.33,2026-07-31,slow,short,640.82,Ironwood Insurance Agency,Commercial Property,121.51,Past Due,46,31-60 Days
+INV-0075,POL-1024,A08,2026-08-01,762.33,2026-08-31,slow,on_time,762.33,Ironwood Insurance Agency,Commercial Property,0.0,Paid,15,Paid
+INV-0076,POL-1025,A07,2026-06-01,1766.25,2026-07-01,slow,on_time,1766.25,Bayview Risk Advisors,General Liability,0.0,Paid,76,Paid
+INV-0077,POL-1025,A07,2026-07-01,1766.25,2026-07-31,slow,late,1766.25,Bayview Risk Advisors,General Liability,0.0,Paid,46,Paid
+INV-0078,POL-1025,A07,2026-08-01,1766.25,2026-08-31,slow,short,1472.52,Bayview Risk Advisors,General Liability,293.73,Past Due,15,1-30 Days
+INV-0079,POL-1026,A05,2026-06-01,1821.17,2026-07-01,reliable,late,1821.17,Pioneer Underwriters,Commercial Auto,0.0,Paid,76,Paid
+INV-0080,POL-1026,A05,2026-07-01,1821.17,2026-07-31,reliable,on_time,1821.17,Pioneer Underwriters,Commercial Auto,0.0,Paid,46,Paid
+INV-0081,POL-1026,A05,2026-08-01,1821.17,2026-08-31,reliable,late,0.0,Pioneer Underwriters,Commercial Auto,1821.17,Past Due,15,1-30 Days
+INV-0082,POL-1027,A09,2026-06-01,3478.58,2026-07-01,problem,short,2623.78,Sterling Benefits & Risk,Commercial Auto,854.8,Past Due,76,60+ Days
+INV-0083,POL-1027,A09,2026-07-01,3478.58,2026-07-31,problem,late,0.0,Sterling Benefits & Risk,Commercial Auto,3478.58,Past Due,46,31-60 Days
+INV-0084,POL-1027,A09,2026-08-01,3478.58,2026-08-31,problem,late,0.0,Sterling Benefits & Risk,Commercial Auto,3478.58,Past Due,15,1-30 Days
+INV-0085,POL-1028,A06,2026-06-01,3006.67,2026-07-01,slow,late,3006.67,Cardinal Insurance Group,General Liability,0.0,Paid,76,Paid
+INV-0086,POL-1028,A06,2026-07-01,3006.67,2026-07-31,slow,late,3006.67,Cardinal Insurance Group,General Liability,0.0,Paid,46,Paid
+INV-0087,POL-1028,A06,2026-08-01,3006.67,2026-08-31,slow,on_time,3006.67,Cardinal Insurance Group,General Liability,0.0,Paid,15,Paid
+INV-0088,POL-1029,A05,2026-06-01,4027.58,2026-07-01,reliable,on_time,4027.58,Pioneer Underwriters,Commercial Property,0.0,Paid,76,Paid
+INV-0089,POL-1029,A05,2026-07-01,4027.58,2026-07-31,reliable,on_time,4027.58,Pioneer Underwriters,Commercial Property,0.0,Paid,46,Paid
+INV-0090,POL-1029,A05,2026-08-01,4027.58,2026-08-31,reliable,on_time,4027.58,Pioneer Underwriters,Commercial Property,0.0,Paid,15,Paid
+INV-0091,POL-1030,A05,2026-06-01,3489.42,2026-07-01,reliable,late,3489.42,Pioneer Underwriters,Commercial Property,0.0,Paid,76,Paid
+INV-0092,POL-1030,A05,2026-07-01,3489.42,2026-07-31,reliable,on_time,3489.42,Pioneer Underwriters,Commercial Property,0.0,Paid,46,Paid
+INV-0093,POL-1030,A05,2026-08-01,3489.42,2026-08-31,reliable,on_time,3489.42,Pioneer Underwriters,Commercial Property,0.0,Paid,15,Paid
+INV-0094,POL-1031,A03,2026-06-01,2328.75,2026-07-01,reliable,on_time,2328.75,Liberty Insurance Agency,General Liability,0.0,Paid,76,Paid
+INV-0095,POL-1031,A03,2026-07-01,2328.75,2026-07-31,reliable,on_time,2328.75,Liberty Insurance Agency,General Liability,0.0,Paid,46,Paid
+INV-0096,POL-1031,A03,2026-08-01,2328.75,2026-08-31,reliable,on_time,2328.75,Liberty Insurance Agency,General Liability,0.0,Paid,15,Paid
+INV-0097,POL-1032,A01,2026-06-01,4163.08,2026-07-01,reliable,on_time,4163.08,Summit Insurance Group,Commercial Auto,0.0,Paid,76,Paid
+INV-0098,POL-1032,A01,2026-07-01,4163.08,2026-07-31,reliable,late,4163.08,Summit Insurance Group,Commercial Auto,0.0,Paid,46,Paid
+INV-0099,POL-1032,A01,2026-08-01,4163.08,2026-08-31,reliable,on_time,4163.08,Summit Insurance Group,Commercial Auto,0.0,Paid,15,Paid
+INV-0100,POL-1033,A06,2026-06-01,1251.42,2026-07-01,slow,on_time,1251.42,Cardinal Insurance Group,Commercial Property,0.0,Paid,76,Paid
+INV-0101,POL-1033,A06,2026-07-01,1251.42,2026-07-31,slow,late,1251.42,Cardinal Insurance Group,Commercial Property,0.0,Paid,46,Paid
+INV-0102,POL-1033,A06,2026-08-01,1251.42,2026-08-31,slow,short,888.41,Cardinal Insurance Group,Commercial Property,363.01,Past Due,15,1-30 Days
+INV-0103,POL-1034,A09,2026-06-01,602.17,2026-07-01,problem,late,602.17,Sterling Benefits & Risk,General Liability,0.0,Paid,76,Paid
+INV-0104,POL-1034,A09,2026-07-01,602.17,2026-07-31,problem,on_time,602.17,Sterling Benefits & Risk,General Liability,0.0,Paid,46,Paid
+INV-0105,POL-1034,A09,2026-08-01,602.17,2026-08-31,problem,on_time,602.17,Sterling Benefits & Risk,General Liability,0.0,Paid,15,Paid
+INV-0106,POL-1035,A01,2026-06-01,905.25,2026-07-01,reliable,on_time,905.25,Summit Insurance Group,Commercial Property,0.0,Paid,76,Paid
+INV-0107,POL-1035,A01,2026-07-01,905.25,2026-07-31,reliable,on_time,905.25,Summit Insurance Group,Commercial Property,0.0,Paid,46,Paid
+INV-0108,POL-1035,A01,2026-08-01,905.25,2026-08-31,reliable,on_time,905.25,Summit Insurance Group,Commercial Property,0.0,Paid,15,Paid
+INV-0109,POL-1036,A09,2026-06-01,3750.58,2026-07-01,problem,on_time,3750.58,Sterling Benefits & Risk,Commercial Auto,0.0,Paid,76,Paid
+INV-0110,POL-1036,A09,2026-07-01,3750.58,2026-07-31,problem,late,3750.58,Sterling Benefits & Risk,Commercial Auto,0.0,Paid,46,Paid
+INV-0111,POL-1036,A09,2026-08-01,3750.58,2026-08-31,problem,short,3281.4,Sterling Benefits & Risk,Commercial Auto,469.18,Past Due,15,1-30 Days
+INV-0112,POL-1037,A09,2026-06-01,2578.42,2026-07-01,problem,late,2578.42,Sterling Benefits & Risk,Commercial Auto,0.0,Paid,76,Paid
+INV-0113,POL-1037,A09,2026-07-01,2578.42,2026-07-31,problem,on_time,2578.42,Sterling Benefits & Risk,Commercial Auto,0.0,Paid,46,Paid
+INV-0114,POL-1037,A09,2026-08-01,2578.42,2026-08-31,problem,short,1801.05,Sterling Benefits & Risk,Commercial Auto,777.37,Past Due,15,1-30 Days
+INV-0115,POL-1038,A03,2026-06-01,1225.75,2026-07-01,reliable,on_time,1225.75,Liberty Insurance Agency,Commercial Property,0.0,Paid,76,Paid
+INV-0116,POL-1038,A03,2026-07-01,1225.75,2026-07-31,reliable,on_time,1225.75,Liberty Insurance Agency,Commercial Property,0.0,Paid,46,Paid
+INV-0117,POL-1038,A03,2026-08-01,1225.75,2026-08-31,reliable,on_time,1225.75,Liberty Insurance Agency,Commercial Property,0.0,Paid,15,Paid
+INV-0118,POL-1039,A07,2026-06-01,2754.67,2026-07-01,slow,on_time,2754.67,Bayview Risk Advisors,Commercial Property,0.0,Paid,76,Paid
+INV-0119,POL-1039,A07,2026-07-01,2754.67,2026-07-31,slow,short,2317.55,Bayview Risk Advisors,Commercial Property,437.12,Past Due,46,31-60 Days
+INV-0120,POL-1039,A07,2026-08-01,2754.67,2026-08-31,slow,on_time,2754.67,Bayview Risk Advisors,Commercial Property,0.0,Paid,15,Paid
+INV-0121,POL-1040,A02,2026-06-01,1185.42,2026-07-01,reliable,on_time,1185.42,Harbor Risk Advisors,General Liability,0.0,Paid,76,Paid
+INV-0122,POL-1040,A02,2026-07-01,1185.42,2026-07-31,reliable,on_time,1185.42,Harbor Risk Advisors,General Liability,0.0,Paid,46,Paid
+INV-0123,POL-1040,A02,2026-08-01,1185.42,2026-08-31,reliable,on_time,1185.42,Harbor Risk Advisors,General Liability,0.0,Paid,15,Paid
+INV-0124,POL-1041,A08,2026-06-01,3633.42,2026-07-01,slow,short,2494.15,Ironwood Insurance Agency,Commercial Property,1139.27,Past Due,76,60+ Days
+INV-0125,POL-1041,A08,2026-07-01,3633.42,2026-07-31,slow,on_time,3633.42,Ironwood Insurance Agency,Commercial Property,0.0,Paid,46,Paid
+INV-0126,POL-1041,A08,2026-08-01,3633.42,2026-08-31,slow,short,2400.68,Ironwood Insurance Agency,Commercial Property,1232.74,Past Due,15,1-30 Days
+INV-0127,POL-1042,A08,2026-06-01,2507.67,2026-07-01,slow,on_time,2507.67,Ironwood Insurance Agency,Commercial Property,0.0,Paid,76,Paid
+INV-0128,POL-1042,A08,2026-07-01,2507.67,2026-07-31,slow,late,2507.67,Ironwood Insurance Agency,Commercial Property,0.0,Paid,46,Paid
+INV-0129,POL-1042,A08,2026-08-01,2507.67,2026-08-31,slow,late,0.0,Ironwood Insurance Agency,Commercial Property,2507.67,Past Due,15,1-30 Days
+INV-0130,POL-1043,A04,2026-06-01,2214.58,2026-07-01,reliable,on_time,2214.58,Keystone Benefits & Risk,General Liability,0.0,Paid,76,Paid
+INV-0131,POL-1043,A04,2026-07-01,2214.58,2026-07-31,reliable,on_time,2214.58,Keystone Benefits & Risk,General Liability,0.0,Paid,46,Paid
+INV-0132,POL-1043,A04,2026-08-01,2214.58,2026-08-31,reliable,on_time,2214.58,Keystone Benefits & Risk,General Liability,0.0,Paid,15,Paid
+INV-0133,POL-1044,A01,2026-06-01,1856.83,2026-07-01,reliable,short,1167.07,Summit Insurance Group,Commercial Property,689.76,Past Due,76,60+ Days
+INV-0134,POL-1044,A01,2026-07-01,1856.83,2026-07-31,reliable,on_time,1856.83,Summit Insurance Group,Commercial Property,0.0,Paid,46,Paid
+INV-0135,POL-1044,A01,2026-08-01,1856.83,2026-08-31,reliable,late,0.0,Summit Insurance Group,Commercial Property,1856.83,Past Due,15,1-30 Days
+INV-0136,POL-1045,A10,2026-06-01,3336.25,2026-07-01,problem,short,2086.32,Northgate Underwriters,Commercial Auto,1249.93,Past Due,76,60+ Days
+INV-0137,POL-1045,A10,2026-07-01,3336.25,2026-07-31,problem,late,3336.25,Northgate Underwriters,Commercial Auto,0.0,Paid,46,Paid
+INV-0138,POL-1045,A10,2026-08-01,3336.25,2026-08-31,problem,short,0.0,Northgate Underwriters,Commercial Auto,3336.25,Past Due,15,1-30 Days
+INV-0139,POL-1046,A05,2026-06-01,2128.17,2026-07-01,reliable,on_time,2128.17,Pioneer Underwriters,Commercial Auto,0.0,Paid,76,Paid
+INV-0140,POL-1046,A05,2026-07-01,2128.17,2026-07-31,reliable,on_time,2128.17,Pioneer Underwriters,Commercial Auto,0.0,Paid,46,Paid
+INV-0141,POL-1046,A05,2026-08-01,2128.17,2026-08-31,reliable,on_time,2128.17,Pioneer Underwriters,Commercial Auto,0.0,Paid,15,Paid
+INV-0142,POL-1047,A09,2026-06-01,894.42,2026-07-01,problem,short,695.95,Sterling Benefits & Risk,Commercial Property,198.47,Past Due,76,60+ Days
+INV-0143,POL-1047,A09,2026-07-01,894.42,2026-07-31,problem,late,894.42,Sterling Benefits & Risk,Commercial Property,0.0,Paid,46,Paid
+INV-0144,POL-1047,A09,2026-08-01,894.42,2026-08-31,problem,late,0.0,Sterling Benefits & Risk,Commercial Property,894.42,Past Due,15,1-30 Days
+INV-0145,POL-1048,A07,2026-06-01,1031.0,2026-07-01,slow,late,1031.0,Bayview Risk Advisors,General Liability,0.0,Paid,76,Paid
+INV-0146,POL-1048,A07,2026-07-01,1031.0,2026-07-31,slow,late,0.0,Bayview Risk Advisors,General Liability,1031.0,Past Due,46,31-60 Days
+INV-0147,POL-1048,A07,2026-08-01,1031.0,2026-08-31,slow,late,0.0,Bayview Risk Advisors,General Liability,1031.0,Past Due,15,1-30 Days
+INV-0148,POL-1049,A08,2026-06-01,4828.5,2026-07-01,slow,late,4828.5,Ironwood Insurance Agency,Commercial Auto,0.0,Paid,76,Paid
+INV-0149,POL-1049,A08,2026-07-01,4828.5,2026-07-31,slow,on_time,4828.5,Ironwood Insurance Agency,Commercial Auto,0.0,Paid,46,Paid
+INV-0150,POL-1049,A08,2026-08-01,4828.5,2026-08-31,slow,late,0.0,Ironwood Insurance Agency,Commercial Auto,4828.5,Past Due,15,1-30 Days
